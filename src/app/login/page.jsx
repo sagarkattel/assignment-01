@@ -28,13 +28,13 @@ const Login = () => {
                         <div className='flex flex-row'>
                             <span className='bg-[#f8faff] text-sm'><button
                                 className="px-4 py-2 border flex gap-2 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150 ">
-                                <Image className="w-6 h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo" />
+                                <Image className="w-6 h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo" width={10} height={10}/>
                                 <span className=''>Sign in with Google</span>
                             </button></span>
 
                             <span className='bg-[#f8faff] pl-1 text-sm'><button
                                 className="px-4 py-2 border flex gap-2 border-slate-200 rounded-lg text-slate-700 hover:border-slate-400 hover:text-slate-900 hover:shadow transition duration-150 ">
-                                <Image className="w-6 h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo" />
+                                <Image className="w-6 h-6" src="https://www.svgrepo.com/show/475656/google-color.svg" loading="lazy" alt="google logo" width={10} height={10}/>
                                 <span className=''>Sign in with apple</span>
                             </button></span>
                         </div>

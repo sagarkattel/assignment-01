@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/dashboard/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/dashboard/page.jsx", "src/app/login/page.jsx", "src/app/component/Bargraph.jsx", "src/app/component/Topproduct.jsx", "src/app/component/Socialform.jsx", "src/app/component/Smallcard.jsx", "src/app/component/Sidebar.jsx", "src/app/component/Navbar.jsx", "src/app/component/Formmodal.jsx", "src/app/component/Basicform.jsx"],
   "exclude": ["node_modules"]
 }
