@@ -1,0 +1,34 @@
+{
+  "name": "nextjs-architecture",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@material-tailwind/react": "^2.1.2",
+    "@types/node": "20.6.1",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.15",
+    "chart.js": "^4.4.0",
+    "eslint": "8.49.0",
+    "eslint-config-next": "13.4.19",
+    "next": "13.4.19",
+    "postcss": "8.4.29",
+    "react": "18.2.0",
+    "react-apexcharts": "^1.4.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "18.2.0",
+    "react-google-charts": "^4.0.1",
+    "react-icons": "^4.11.0",
+    "tailwindcss": "3.3.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
+}
