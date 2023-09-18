@@ -119,7 +119,7 @@ const Bargraph = () => {
 
   return (
     <div className="h-[220px] w-full bg-[#ffffff] flex flex-row p-4 border-1 my-4 rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
-      <div className="w-[800px] flex flex-col">
+      <div className="w-[800px] flex flex-col cursor-pointer">
         <div className="flex flex-col">
           <div>
             <h1 className="font-bold">Activities</h1>

@@ -4,6 +4,7 @@ import {BsTag} from 'react-icons/bs';
 import {AiOutlineSchedule} from 'react-icons/ai'
 import {BiUserCircle} from 'react-icons/bi';
 import {FiSettings} from 'react-icons/fi';
+import Link from 'next/link';
 
 
 const Sidebar = () => {
@@ -17,42 +18,46 @@ const Sidebar = () => {
 
                     <div className='mb-[25px] flex flex-row'>
                         <span className='justify-center'><TbDashboard size={25}/></span>
-                        <span className='ml-3'>Dashboard</span>
+                        <Link href='/dashboard'>
+                        <button className='ml-3'>Dashboard</button>
+                        </Link>
                     </div>
 
                     <div className='mb-[25px] flex flex-row'>
                     <span className='justify-center'><BsTag size={25}/></span>
-                        <span className='ml-3'>Transaction</span>
+                        <Link href='/underconstruction'><button className='ml-3'>Transaction</button>
+                        </Link>
                     </div>
 
                     <div className='mb-[25px] flex flex-row'>
                     <span className='justify-center'><AiOutlineSchedule size={25} /></span>
-                        <span className='ml-3'>Schedules</span>
+                        <Link href='/underconstruction'><button className='ml-3'>Schedules</button>
+                        </Link>
                     </div>
 
                     <div className='mb-[25px] flex flex-row'>
                         <span>
                             <BiUserCircle size={25}/>
                         </span>
-                        <span className='ml-3'>Users</span>
+                       <Link href='/underconstruction' ><button className='ml-3'>Users</button></Link>
                     </div>
 
                     <div className='mb-[25px] flex flex-row'>
                         <span>
                             <FiSettings size={25} />
                         </span>
-                        <span className='ml-3'>Setting</span>
+                        <Link href='/underconstruction'><button className='ml-3'>Setting</button></Link>
                     </div>
                 </div>
 
 
                 <div className='mt-[140px]'>
                     <div className='mb-[10px]'>
-                        <span>Help</span>
+                       <Link href='/underconstruction'> <button>Help</button></Link>
                     </div>
 
                     <div>
-                        <span>Contact Us</span>
+                        <Link href='/underconstruction'><button>Contact Us</button></Link>
                     </div>
                 </div>
 

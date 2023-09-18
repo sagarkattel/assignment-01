@@ -79,7 +79,7 @@ const Topproduct = () => {
     <>
       {toggle && <Formmodal isVisible={toggle} onClose={() => setToggle(false)} />}
       <div className="h-[210px] w-full  flex flex-row">
-        <div className="w-1/2 h-[328px] p-2 py-3 rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
+        <div className="w-1/2 h-[328px] p-2 py-3 rounded-xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer">
           <div className=" ">
             <div className="flex flex-row p-2">
               <div className="font-bold ">Top Products</div>
@@ -103,7 +103,7 @@ const Topproduct = () => {
                 shadow-[0_3px_10px_rgb(0,0,0,0.2)] ml-[20px] pl-[20px]"
         >
           {localStorageData ? (
-            <div className="flex flex-col gap-2 p-4 py-[60px]">
+            <div className="flex flex-col gap-2 p-4 py-[60px] cursor-pointer">
               <div className="font-bold text-2xl">{name}</div>
 
               <div className="flex flex-col mt-[30px]">

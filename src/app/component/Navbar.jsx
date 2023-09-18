@@ -11,9 +11,9 @@ const Navbar = () => {
             </div>
 
             <div className='ml-auto flex flex-row gap-4'>
-                <span className='flex flex-row'><input type="search" name="search" placeholder='Search...' className='rounded pl-2 py-[3px] w-[11rem] h-[30px]'/><AiOutlineSearch size={25} className=" ml-[-30px] pl-[5px]"/></span>
-                <span><IoNotificationsOutline size={25}/></span>
-                <span><BiSolidUserCircle size={26}/></span>
+                <span className='flex flex-row'><input type="search" name="search" placeholder='Search...' className='rounded pl-2 py-[3px] w-[11rem] h-[30px] border-2'/><AiOutlineSearch size={25} className=" ml-[-30px] pl-[5px]"/></span>
+                <span className='cursor-pointer'><IoNotificationsOutline size={25}/></span>
+                <span className='cursor-pointer'><BiSolidUserCircle size={26}/></span>
             </div>
         </div>
     )
